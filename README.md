@@ -12,6 +12,11 @@ brew install newrelic-cli
 
 ---
 
+Become root user:
+```bash
+sudo -i
+```
+
 Add new profile:
 ```bash
 newrelic profiles add --profile shubham
@@ -21,3 +26,12 @@ Set profile as default:
 ```bash
 newrelic profiles default --profile shubham
 ```
+
+Install newrelic agent:
+```bash
+newrelic install
+```
+
+
+
+
