@@ -32,6 +32,16 @@ Install newrelic agent:
 newrelic install
 ```
 
+---
+
+Add helm repo
+```bash
+helm repo add newrelic https://helm-charts.newrelic.com
+```
+
+
+
+
 
 
 
