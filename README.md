@@ -9,3 +9,15 @@ Install newrelic-cli on macos:
 ```bash
 brew install newrelic-cli
 ```
+
+---
+
+Add new profile:
+```bash
+newrelic profiles add --profile shubham
+```
+
+Set profile as default:
+```bash
+newrelic profiles default --profile shubham
+```
